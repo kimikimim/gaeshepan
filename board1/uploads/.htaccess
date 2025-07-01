@@ -1,0 +1,8 @@
+<FilesMatch "\.(php|php5|php7|phtml|phar)$">
+    Deny from all
+</FilesMatch>
+
+<Files .htaccess>
+  Order Allow,Deny
+  Deny from all
+</Files>
